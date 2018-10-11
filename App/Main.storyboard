@@ -1,0 +1,2754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ec595caf-c22d-4f3f-a847-37acf2fa85b2">
+<device id="retina4_7" orientation="portrait">
+<adaptation id="fullscreen"/>
+</device>
+<dependencies>
+<deployment identifier="iOS"/>
+<plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+<capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+</dependencies>
+<scenes>
+<!--View Controller-->
+<scene sceneID="ec595caf-c22d-4f3f-a847-37acf2fa85b2-scene">
+<objects>
+<viewController id="ec595caf-c22d-4f3f-a847-37acf2fa85b2" sceneMemberID="viewController">
+<layoutGuides>
+<viewControllerLayoutGuide type="top" id="ec595caf-c22d-4f3f-a847-37acf2fa85b2-top"/>
+<viewControllerLayoutGuide type="bottom" id="ec595caf-c22d-4f3f-a847-37acf2fa85b2-bottom"/>
+</layoutGuides>
+<view key="view" contentMode="scaleAspectFit" id="view-ec595caf-c22d-4f3f-a847-37acf2fa85b2">
+<rect key="frame" x="0.0" y="0.0" width="375" height="185"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+
+</subviews>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</view>
+<extendedEdge key="edgesForExtendedLayout"/>
+<nil key="simulatedTopBarMetrics"/>
+<nil key="simulatedBottomBarMetrics"/>
+</viewController>
+<placeholder placeholderIdentifier="IBFirstResponder" id="placeholderId-ec595caf-c22d-4f3f-a847-37acf2fa85b2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+</objects>
+</scene>
+
+
+<!--View Controller-->
+<scene sceneID="13f47e6a-7810-40d4-be02-e8faec6886f3-scene">
+<objects>
+<viewController id="13f47e6a-7810-40d4-be02-e8faec6886f3" sceneMemberID="viewController">
+<layoutGuides>
+<viewControllerLayoutGuide type="top" id="13f47e6a-7810-40d4-be02-e8faec6886f3-top"/>
+<viewControllerLayoutGuide type="bottom" id="13f47e6a-7810-40d4-be02-e8faec6886f3-bottom"/>
+</layoutGuides>
+<view key="view" contentMode="scaleAspectFit" id="view-13f47e6a-7810-40d4-be02-e8faec6886f3">
+<rect key="frame" x="0.0" y="0.0" width="375" height="185"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="10cbb4cc-29c8-4108-bcb3-99fcc4ad783c">
+<rect key="frame" x="0" y="0" width="375" height="185"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" customClass="YTImageView" customModuleProvider="target" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a08d0efb-74da-4fd0-9f57-e51b7e456970">
+<rect key="frame" x="187" y="0" width="188" height="185"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<userDefinedRuntimeAttributes><userDefinedRuntimeAttribute type="string" keyPath="stringUrl" value="http://tako.assets.yotako.io/images/brand/big-octo.png"/></userDefinedRuntimeAttributes></imageView>
+
+
+<button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" customClass="YTButton" customModuleProvider="target"  contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="wordWrap" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="abd0fefc-625b-4ae5-8e0b-72542257886d">
+<rect key="frame" x="229" y="75" width="106" height="34"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="8"/>
+<state key="normal" title="Authorised User
+(full functionality)">
+<color key="titleColor" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</state>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+<real key="value" value="4"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+    <userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+    <userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+  <userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1 "/>
+</userDefinedRuntimeAttribute>
+ </userDefinedRuntimeAttributes></button>
+
+
+<imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" customClass="YTImageView" customModuleProvider="target" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="442ed402-a7ad-4fcb-9d4d-37548d300e1b">
+<rect key="frame" x="0" y="0" width="188" height="185"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<userDefinedRuntimeAttributes><userDefinedRuntimeAttribute type="string" keyPath="stringUrl" value="http://tako.assets.yotako.io/images/brand/big-octo.png"/></userDefinedRuntimeAttributes></imageView>
+
+
+<button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" customClass="YTButton" customModuleProvider="target"  contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="wordWrap" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="22e125f1-f1de-4624-9bce-7bfc57af3c0e">
+<rect key="frame" x="40" y="75" width="106" height="34"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="8"/>
+<state key="normal" title="Guest
+(less preferences)">
+<color key="titleColor" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</state>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+<real key="value" value="4"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+    <userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+    <userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+  <userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1 "/>
+</userDefinedRuntimeAttribute>
+ </userDefinedRuntimeAttributes></button>
+
+
+<label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" customClass="YTLabel" customModuleProvider="target"  text="Continue as" textAlignment="natural"
+ lineBreakMode="tailTruncation"
+ baselineAdjustment="alignBaselines"
+ adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" numberOfLines="0" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1fe8e3b0-e09b-4f49-abfb-28fe2b8ab6cd">
+<rect key="frame" x="148" y="37" width="78" height="16"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" weight="" pointSize="13"/>
+</label>
+</subviews>
+</view>
+
+</subviews>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</view>
+<extendedEdge key="edgesForExtendedLayout"/>
+<nil key="simulatedTopBarMetrics"/>
+<nil key="simulatedBottomBarMetrics"/>
+</viewController>
+<placeholder placeholderIdentifier="IBFirstResponder" id="placeholderId-13f47e6a-7810-40d4-be02-e8faec6886f3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+</objects>
+</scene>
+
+
+<!--View Controller-->
+<scene sceneID="ff20f006-5279-4de4-9df9-c15252231084-scene">
+<objects>
+<viewController id="ff20f006-5279-4de4-9df9-c15252231084" sceneMemberID="viewController">
+<layoutGuides>
+<viewControllerLayoutGuide type="top" id="ff20f006-5279-4de4-9df9-c15252231084-top"/>
+<viewControllerLayoutGuide type="bottom" id="ff20f006-5279-4de4-9df9-c15252231084-bottom"/>
+</layoutGuides>
+<view key="view" contentMode="scaleAspectFit" id="view-ff20f006-5279-4de4-9df9-c15252231084">
+<rect key="frame" x="0.0" y="0.0" width="375" height="261"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cb98f49a-6b85-4855-a3d5-d0f865dba081">
+<rect key="frame" x="45" y="24" width="284" height="26"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" customClass="YTLabel" customModuleProvider="target"  text="KinoZord" textAlignment="natural"
+ lineBreakMode="tailTruncation"
+ baselineAdjustment="alignBaselines"
+ adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" numberOfLines="0" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c19fe182-9c9f-477e-ba1a-44b282184a5b">
+<rect key="frame" x="115" y="6" width="56" height="13"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" weight="" pointSize="11"/>
+</label>
+
+<view contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="da977f58-3cbe-4efe-8fc2-f7221035fe72">
+<rect key="frame" x="0" y="24" width="284" height="2"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOT SUPPORTED YET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-da977f58-3cbe-4efe-8fc2-f7221035fe72">
+<rect key="frame" x="0.0" y="0.0" width="284" height="21"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="1" green="0.91394694922631248" blue="0.032942227757150722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<nil key="highlightedColor"/>
+</label>
+</subviews>
+<color key="backgroundColor" red="1" green="0.032048474620000003" blue="0.050928208099999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+
+</subviews>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+    <userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+  <userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1 "/>
+</userDefinedRuntimeAttribute>
+ </userDefinedRuntimeAttributes></view>
+
+
+<view contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3dafe5eb-af4f-4426-8f1a-bc02ccd27ebe">
+<rect key="frame" x="45" y="69" width="284" height="187"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOT SUPPORTED YET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-3dafe5eb-af4f-4426-8f1a-bc02ccd27ebe">
+<rect key="frame" x="0.0" y="0.0" width="284" height="21"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="1" green="0.91394694922631248" blue="0.032942227757150722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<nil key="highlightedColor"/>
+</label>
+</subviews>
+<color key="backgroundColor" red="1" green="0.032048474620000003" blue="0.050928208099999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+
+</subviews>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</view>
+<extendedEdge key="edgesForExtendedLayout"/>
+<nil key="simulatedTopBarMetrics"/>
+<nil key="simulatedBottomBarMetrics"/>
+</viewController>
+<placeholder placeholderIdentifier="IBFirstResponder" id="placeholderId-ff20f006-5279-4de4-9df9-c15252231084" userLabel="First Responder" sceneMemberID="firstResponder"/>
+</objects>
+</scene>
+
+
+<!--View Controller-->
+<scene sceneID="97ddb94e-259f-44ff-bbc0-ec8ab56f3a27-scene">
+<objects>
+<viewController id="97ddb94e-259f-44ff-bbc0-ec8ab56f3a27" sceneMemberID="viewController">
+<layoutGuides>
+<viewControllerLayoutGuide type="top" id="97ddb94e-259f-44ff-bbc0-ec8ab56f3a27-top"/>
+<viewControllerLayoutGuide type="bottom" id="97ddb94e-259f-44ff-bbc0-ec8ab56f3a27-bottom"/>
+</layoutGuides>
+<view key="view" contentMode="scaleAspectFit" id="view-97ddb94e-259f-44ff-bbc0-ec8ab56f3a27">
+<rect key="frame" x="0.0" y="0.0" width="375" height="185"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6554a8fb-5953-46d5-9da2-93fe9f5f541d">
+<rect key="frame" x="45" y="24" width="284" height="26"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<subviews>
+<view contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fee13c00-d042-48fe-bed2-dc79f5fbce02">
+<rect key="frame" x="0" y="24" width="284" height="2"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOT SUPPORTED YET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-fee13c00-d042-48fe-bed2-dc79f5fbce02">
+<rect key="frame" x="0.0" y="0.0" width="284" height="21"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="1" green="0.91394694922631248" blue="0.032942227757150722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<nil key="highlightedColor"/>
+</label>
+</subviews>
+<color key="backgroundColor" red="1" green="0.032048474620000003" blue="0.050928208099999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+
+
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="88b148b4-4a02-4baf-922e-e93860a0af68">
+<rect key="frame" x="4" y="6" width="269" height="13"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" customClass="YTSearchBox" customModuleProvider="target"  textAlignment="natural" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9c578e9d-c2cc-4471-8b94-3ac5fdcccb7c">
+<rect key="frame" x="66" y="3" width="168" height="10"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<mutableString key="text">search by name</mutableString>
+<fontDescription key="fontDescription" type="system" weight="" pointSize=""/>
+<userDefinedRuntimeAttributes>
+</userDefinedRuntimeAttributes>
+    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+</textView>
+
+<label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" customClass="YTLabel" customModuleProvider="target"  text="KinoZord" textAlignment="natural"
+ lineBreakMode="tailTruncation"
+ baselineAdjustment="alignBaselines"
+ adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" numberOfLines="0" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bcbd4c7d-62f0-43bd-9a26-e0295a76113b">
+<rect key="frame" x="0" y="0" width="56" height="13"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" weight="" pointSize="11"/>
+</label>
+
+<button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" customClass="YTButton" customModuleProvider="target"  contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="wordWrap" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ca72512-71a6-443f-973a-be8cfbacc5fe">
+<rect key="frame" x="240" y="3" width="29" height="10"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="8"/>
+<state key="normal" title="go">
+<color key="titleColor" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</state>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+    <userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+  <userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1 "/>
+</userDefinedRuntimeAttribute>
+ </userDefinedRuntimeAttributes></button>
+
+</subviews>
+</view>
+
+</subviews>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+    <userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+  <userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1 "/>
+</userDefinedRuntimeAttribute>
+ </userDefinedRuntimeAttributes></view>
+
+
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8c3f04a9-5d27-495e-a400-113e9ebee8dc">
+<rect key="frame" x="45" y="69" width="284" height="106"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<subviews>
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="44d9cbc0-6c12-4b12-8988-5a25bd9ee9de">
+<rect key="frame" x="0" y="0" width="284" height="106"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bf38c3d7-ca9e-43d3-ab15-4321dcaaf4a6">
+<rect key="frame" x="93" y="0" width="98" height="106"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" customClass="YTLabel" customModuleProvider="target"  text="Films" textAlignment="natural"
+ lineBreakMode="tailTruncation"
+ baselineAdjustment="alignBaselines"
+ adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" numberOfLines="0" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="94914ef1-3f15-4a67-ae38-3d8a490b0071">
+<rect key="frame" x="33" y="45" width="33" height="16"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" weight="" pointSize="13"/>
+</label>
+</subviews>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+    <userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+  <userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1 "/>
+</userDefinedRuntimeAttribute>
+ </userDefinedRuntimeAttributes></view>
+
+
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3d02ec6c-3c84-46b2-8c27-d6c273cc510e">
+<rect key="frame" x="0" y="0" width="93" height="53"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" customClass="YTLabel" customModuleProvider="target"  text="Afisha" textAlignment="natural"
+ lineBreakMode="tailTruncation"
+ baselineAdjustment="alignBaselines"
+ adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" numberOfLines="0" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3e05fc0c-9bdc-4588-8a58-e699f293ad88">
+<rect key="frame" x="30" y="20" width="33" height="13"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" weight="" pointSize="11"/>
+</label>
+</subviews>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+    <userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+  <userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1 "/>
+</userDefinedRuntimeAttribute>
+ </userDefinedRuntimeAttributes></view>
+
+
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ea7421a0-a527-4ee2-b7aa-a15372e67d44">
+<rect key="frame" x="0" y="52" width="93" height="53"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" customClass="YTLabel" customModuleProvider="target"  text="Ratings" textAlignment="natural"
+ lineBreakMode="tailTruncation"
+ baselineAdjustment="alignBaselines"
+ adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" numberOfLines="0" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c2801eca-81a9-49e0-af95-d69e9a08f58c">
+<rect key="frame" x="26" y="19" width="41" height="13"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" weight="" pointSize="11"/>
+</label>
+</subviews>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+    <userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+  <userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1 "/>
+</userDefinedRuntimeAttribute>
+ </userDefinedRuntimeAttributes></view>
+
+
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d95464b0-1576-40bb-9f23-73bf6dce41b4">
+<rect key="frame" x="190" y="0" width="94" height="106"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5a2f70e3-ecff-44b6-907d-1b724c1e7c13">
+<rect key="frame" x="0" y="53" width="94" height="53"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" customClass="YTLabel" customModuleProvider="target"  text="Profile/Log In" textAlignment="natural"
+ lineBreakMode="tailTruncation"
+ baselineAdjustment="alignBaselines"
+ adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" numberOfLines="0" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="26508c4d-2e86-442f-858e-4704af761f34">
+<rect key="frame" x="23" y="20" width="49" height="9"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" weight="" pointSize="8"/>
+</label>
+</subviews>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+    <userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+  <userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1 "/>
+</userDefinedRuntimeAttribute>
+ </userDefinedRuntimeAttributes></view>
+
+
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b3613d22-ffae-4811-8b68-96de283a9be5">
+<rect key="frame" x="0" y="0" width="94" height="53"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" customClass="YTLabel" customModuleProvider="target"  text="Advanced Search" textAlignment="natural"
+ lineBreakMode="tailTruncation"
+ baselineAdjustment="alignBaselines"
+ adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" numberOfLines="0" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ee9b162-9a18-4687-8242-384c7a708362">
+<rect key="frame" x="16" y="22" width="62" height="9"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" weight="" pointSize="8"/>
+</label>
+</subviews>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+    <userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+  <userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1 "/>
+</userDefinedRuntimeAttribute>
+ </userDefinedRuntimeAttributes></view>
+
+</subviews>
+</view>
+
+</subviews>
+</view>
+
+</subviews>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+    <userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+  <userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1 "/>
+</userDefinedRuntimeAttribute>
+ </userDefinedRuntimeAttributes></view>
+
+</subviews>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</view>
+<extendedEdge key="edgesForExtendedLayout"/>
+<nil key="simulatedTopBarMetrics"/>
+<nil key="simulatedBottomBarMetrics"/>
+</viewController>
+<placeholder placeholderIdentifier="IBFirstResponder" id="placeholderId-97ddb94e-259f-44ff-bbc0-ec8ab56f3a27" userLabel="First Responder" sceneMemberID="firstResponder"/>
+</objects>
+</scene>
+
+
+<!--View Controller-->
+<scene sceneID="b71eba2c-416d-482c-9016-51eb19fdf62e-scene">
+<objects>
+<viewController id="b71eba2c-416d-482c-9016-51eb19fdf62e" sceneMemberID="viewController">
+<layoutGuides>
+<viewControllerLayoutGuide type="top" id="b71eba2c-416d-482c-9016-51eb19fdf62e-top"/>
+<viewControllerLayoutGuide type="bottom" id="b71eba2c-416d-482c-9016-51eb19fdf62e-bottom"/>
+</layoutGuides>
+<view key="view" contentMode="scaleAspectFit" id="view-b71eba2c-416d-482c-9016-51eb19fdf62e">
+<rect key="frame" x="0.0" y="0.0" width="375" height="390"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2e03a335-154e-4dc5-8e84-9f2f3c590860">
+<rect key="frame" x="45" y="44" width="284" height="343"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<subviews>
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2e340906-4cf5-464e-ab55-f3fc50443340">
+<rect key="frame" x="3" y="4" width="271" height="327"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" customClass="YTTextView" customModuleProvider="target"  textAlignment="natural" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="90a5b2fc-8468-4c23-bdcd-57364d1a27ea">
+<rect key="frame" x="0" y="3" width="102" height="59"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<fontDescription key="fontDescription" type="system" weight="" pointSize=""/>
+<textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+</textView>
+
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="38b54fe4-2664-4390-a3c7-155e278813a2">
+<rect key="frame" x="11" y="10" width="40" height="45"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<subviews>
+<view contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="23f80198-eae8-4f56-ab1e-8425f0331af7">
+<rect key="frame" x="12" y="6" width="16" height="17"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOT SUPPORTED YET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-23f80198-eae8-4f56-ab1e-8425f0331af7">
+<rect key="frame" x="0.0" y="0.0" width="16" height="21"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="1" green="0.91394694922631248" blue="0.032942227757150722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<nil key="highlightedColor"/>
+</label>
+</subviews>
+<color key="backgroundColor" red="1" green="0.032048474620000003" blue="0.050928208099999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+
+
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4b43dc14-f379-4054-be62-298b65756327">
+<rect key="frame" x="8" y="9" width="66" height="25"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<view contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0e391364-a27a-44c1-9d91-f70ec8b1656e">
+<rect key="frame" x="0" y="0" width="25" height="25"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOT SUPPORTED YET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-0e391364-a27a-44c1-9d91-f70ec8b1656e">
+<rect key="frame" x="0.0" y="0.0" width="25" height="21"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="1" green="0.91394694922631248" blue="0.032942227757150722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<nil key="highlightedColor"/>
+</label>
+</subviews>
+<color key="backgroundColor" red="1" green="0.032048474620000003" blue="0.050928208099999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+
+
+<view contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1aba0865-882b-4ee5-b1cf-b4f333783deb">
+<rect key="frame" x="27" y="3" width="39" height="5"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOT SUPPORTED YET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-1aba0865-882b-4ee5-b1cf-b4f333783deb">
+<rect key="frame" x="0.0" y="0.0" width="39" height="21"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="1" green="0.91394694922631248" blue="0.032942227757150722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<nil key="highlightedColor"/>
+</label>
+</subviews>
+<color key="backgroundColor" red="1" green="0.032048474620000003" blue="0.050928208099999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+
+</subviews>
+</view>
+
+
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1848ffcc-18bb-4d28-92a3-3d970960727b">
+<rect key="frame" x="12" y="34" width="62" height="17"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<view contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3a341e5d-3174-40e3-9d36-4ce0db5cdb5b">
+<rect key="frame" x="0" y="0" width="16" height="17"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOT SUPPORTED YET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-3a341e5d-3174-40e3-9d36-4ce0db5cdb5b">
+<rect key="frame" x="0.0" y="0.0" width="16" height="21"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="1" green="0.91394694922631248" blue="0.032942227757150722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<nil key="highlightedColor"/>
+</label>
+</subviews>
+<color key="backgroundColor" red="1" green="0.032048474620000003" blue="0.050928208099999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+
+
+<view contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="49f2adad-3783-4db7-8d23-9af48d64d20e">
+<rect key="frame" x="23" y="6" width="39" height="5"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOT SUPPORTED YET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-49f2adad-3783-4db7-8d23-9af48d64d20e">
+<rect key="frame" x="0.0" y="0.0" width="39" height="21"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="1" green="0.91394694922631248" blue="0.032942227757150722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<nil key="highlightedColor"/>
+</label>
+</subviews>
+<color key="backgroundColor" red="1" green="0.032048474620000003" blue="0.050928208099999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+
+</subviews>
+</view>
+
+</subviews>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+    <userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+  <userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1 "/>
+</userDefinedRuntimeAttribute>
+ </userDefinedRuntimeAttributes></view>
+
+
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ba72327-d5c8-4ae1-83ff-18584cede5bf">
+<rect key="frame" x="56" y="19" width="43" height="25"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" customClass="YTLabel" customModuleProvider="target"  text="NickName" textAlignment="natural"
+ lineBreakMode="tailTruncation"
+ baselineAdjustment="alignBaselines"
+ adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" numberOfLines="0" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9d4e9ec8-4099-455c-8400-a13253812414">
+<rect key="frame" x="0" y="0" width="36" height="9"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" weight="" pointSize="8"/>
+</label>
+
+<label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" customClass="YTLabel" customModuleProvider="target"  text="real name&amp;surname" textAlignment="natural"
+ lineBreakMode="tailTruncation"
+ baselineAdjustment="alignBaselines"
+ adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" numberOfLines="0" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="261580f5-60ed-4f41-b511-328088e0b91f">
+<rect key="frame" x="0" y="19" width="43" height="6"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" weight="" pointSize="5"/>
+</label>
+</subviews>
+</view>
+
+
+<view contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c1a070bc-9a6a-4866-a9d1-8699acb0c664">
+<rect key="frame" x="110" y="0" width="161" height="327"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOT SUPPORTED YET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-c1a070bc-9a6a-4866-a9d1-8699acb0c664">
+<rect key="frame" x="0.0" y="0.0" width="161" height="21"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="1" green="0.91394694922631248" blue="0.032942227757150722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<nil key="highlightedColor"/>
+</label>
+</subviews>
+<color key="backgroundColor" red="1" green="0.032048474620000003" blue="0.050928208099999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+
+
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="07effec7-0e79-4bad-85e6-b7d14f47d1e4">
+<rect key="frame" x="0" y="3" width="102" height="324"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<view contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="460fc84c-a247-4939-8fa7-6fa7396fcc22">
+<rect key="frame" x="0" y="62" width="102" height="50"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOT SUPPORTED YET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-460fc84c-a247-4939-8fa7-6fa7396fcc22">
+<rect key="frame" x="0.0" y="0.0" width="102" height="21"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="1" green="0.91394694922631248" blue="0.032942227757150722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<nil key="highlightedColor"/>
+</label>
+</subviews>
+<color key="backgroundColor" red="1" green="0.032048474620000003" blue="0.050928208099999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+
+
+<view contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="24dec059-315a-4796-a279-6728681747d5">
+<rect key="frame" x="0" y="274" width="102" height="50"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOT SUPPORTED YET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-24dec059-315a-4796-a279-6728681747d5">
+<rect key="frame" x="0.0" y="0.0" width="102" height="21"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="1" green="0.91394694922631248" blue="0.032942227757150722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<nil key="highlightedColor"/>
+</label>
+</subviews>
+<color key="backgroundColor" red="1" green="0.032048474620000003" blue="0.050928208099999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+
+
+<view contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="066ce4c9-4255-4931-9c4c-cdf4d4500afa">
+<rect key="frame" x="0" y="167" width="102" height="50"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOT SUPPORTED YET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-066ce4c9-4255-4931-9c4c-cdf4d4500afa">
+<rect key="frame" x="0.0" y="0.0" width="102" height="21"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="1" green="0.91394694922631248" blue="0.032942227757150722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<nil key="highlightedColor"/>
+</label>
+</subviews>
+<color key="backgroundColor" red="1" green="0.032048474620000003" blue="0.050928208099999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+
+
+<view contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7b36174f-daf1-4e7b-b999-4e49b6a021d9">
+<rect key="frame" x="0" y="115" width="102" height="50"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOT SUPPORTED YET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-7b36174f-daf1-4e7b-b999-4e49b6a021d9">
+<rect key="frame" x="0.0" y="0.0" width="102" height="21"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="1" green="0.91394694922631248" blue="0.032942227757150722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<nil key="highlightedColor"/>
+</label>
+</subviews>
+<color key="backgroundColor" red="1" green="0.032048474620000003" blue="0.050928208099999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+
+
+<view contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1668e77d-85c7-4b63-a38d-a89082978b86">
+<rect key="frame" x="0" y="220" width="102" height="50"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOT SUPPORTED YET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-1668e77d-85c7-4b63-a38d-a89082978b86">
+<rect key="frame" x="0.0" y="0.0" width="102" height="21"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="1" green="0.91394694922631248" blue="0.032942227757150722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<nil key="highlightedColor"/>
+</label>
+</subviews>
+<color key="backgroundColor" red="1" green="0.032048474620000003" blue="0.050928208099999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+
+</subviews>
+</view>
+
+</subviews>
+</view>
+
+</subviews>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+    <userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+  <userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1 "/>
+</userDefinedRuntimeAttribute>
+ </userDefinedRuntimeAttributes></view>
+
+
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f50df1f1-52b1-43c2-a831-482705596453">
+<rect key="frame" x="45" y="11" width="284" height="26"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<subviews>
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ac51bcc-7093-4e55-94d1-4af6cbb8cbe4">
+<rect key="frame" x="17" y="2" width="249" height="251"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" customClass="YTLabel" customModuleProvider="target"  text="KinoZord" textAlignment="natural"
+ lineBreakMode="tailTruncation"
+ baselineAdjustment="alignBaselines"
+ adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" numberOfLines="0" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b7503225-c031-4ee5-8c9a-e67fe43b89bc">
+<rect key="frame" x="96" y="3" width="58" height="16"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" weight="" pointSize="13"/>
+</label>
+
+<view contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f4f9a1a7-e565-4dd2-a48e-24bcbc573a22">
+<rect key="frame" x="0" y="0" width="249" height="251"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOT SUPPORTED YET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-f4f9a1a7-e565-4dd2-a48e-24bcbc573a22">
+<rect key="frame" x="0.0" y="0.0" width="249" height="21"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="1" green="0.91394694922631248" blue="0.032942227757150722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<nil key="highlightedColor"/>
+</label>
+</subviews>
+<color key="backgroundColor" red="1" green="0.032048474620000003" blue="0.050928208099999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+
+</subviews>
+</view>
+
+</subviews>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+    <userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+  <userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1 "/>
+</userDefinedRuntimeAttribute>
+ </userDefinedRuntimeAttributes></view>
+
+</subviews>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</view>
+<extendedEdge key="edgesForExtendedLayout"/>
+<nil key="simulatedTopBarMetrics"/>
+<nil key="simulatedBottomBarMetrics"/>
+</viewController>
+<placeholder placeholderIdentifier="IBFirstResponder" id="placeholderId-b71eba2c-416d-482c-9016-51eb19fdf62e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+</objects>
+</scene>
+
+
+<!--View Controller-->
+<scene sceneID="ec622560-628d-4fb3-8dfb-9fc3917a0a87-scene">
+<objects>
+<viewController id="ec622560-628d-4fb3-8dfb-9fc3917a0a87" sceneMemberID="viewController">
+<layoutGuides>
+<viewControllerLayoutGuide type="top" id="ec622560-628d-4fb3-8dfb-9fc3917a0a87-top"/>
+<viewControllerLayoutGuide type="bottom" id="ec622560-628d-4fb3-8dfb-9fc3917a0a87-bottom"/>
+</layoutGuides>
+<view key="view" contentMode="scaleAspectFit" id="view-ec622560-628d-4fb3-8dfb-9fc3917a0a87">
+<rect key="frame" x="0.0" y="0.0" width="375" height="185"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+
+</subviews>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</view>
+<extendedEdge key="edgesForExtendedLayout"/>
+<nil key="simulatedTopBarMetrics"/>
+<nil key="simulatedBottomBarMetrics"/>
+</viewController>
+<placeholder placeholderIdentifier="IBFirstResponder" id="placeholderId-ec622560-628d-4fb3-8dfb-9fc3917a0a87" userLabel="First Responder" sceneMemberID="firstResponder"/>
+</objects>
+</scene>
+
+
+<!--View Controller-->
+<scene sceneID="3fe7f945-212f-4a64-babe-e2f3b8a11bb6-scene">
+<objects>
+<viewController id="3fe7f945-212f-4a64-babe-e2f3b8a11bb6" sceneMemberID="viewController">
+<layoutGuides>
+<viewControllerLayoutGuide type="top" id="3fe7f945-212f-4a64-babe-e2f3b8a11bb6-top"/>
+<viewControllerLayoutGuide type="bottom" id="3fe7f945-212f-4a64-babe-e2f3b8a11bb6-bottom"/>
+</layoutGuides>
+<view key="view" contentMode="scaleAspectFit" id="view-3fe7f945-212f-4a64-babe-e2f3b8a11bb6">
+<rect key="frame" x="0.0" y="0.0" width="375" height="425"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9fb3b02b-8a13-4658-9813-e2719a258347">
+<rect key="frame" x="45" y="24" width="284" height="26"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<subviews>
+<view contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a505b75e-04e1-423a-a909-f9207b3ae35d">
+<rect key="frame" x="0" y="24" width="284" height="2"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOT SUPPORTED YET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-a505b75e-04e1-423a-a909-f9207b3ae35d">
+<rect key="frame" x="0.0" y="0.0" width="284" height="21"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="1" green="0.91394694922631248" blue="0.032942227757150722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<nil key="highlightedColor"/>
+</label>
+</subviews>
+<color key="backgroundColor" red="1" green="0.032048474620000003" blue="0.050928208099999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+
+
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5c62068c-73d8-41a8-85a2-f0e9d8bec72d">
+<rect key="frame" x="4" y="6" width="269" height="13"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" customClass="YTSearchBox" customModuleProvider="target"  textAlignment="natural" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="91a5a324-cf7b-4842-ba16-1cd01194d926">
+<rect key="frame" x="66" y="3" width="168" height="10"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<mutableString key="text">search by name</mutableString>
+<fontDescription key="fontDescription" type="system" weight="" pointSize=""/>
+<userDefinedRuntimeAttributes>
+</userDefinedRuntimeAttributes>
+    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+</textView>
+
+<label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" customClass="YTLabel" customModuleProvider="target"  text="KinoZord" textAlignment="natural"
+ lineBreakMode="tailTruncation"
+ baselineAdjustment="alignBaselines"
+ adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" numberOfLines="0" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aaa9771d-959b-46c7-9da6-11ec3cdd7c70">
+<rect key="frame" x="0" y="0" width="56" height="13"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" weight="" pointSize="11"/>
+</label>
+
+<button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" customClass="YTButton" customModuleProvider="target"  contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="wordWrap" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="72cf9434-957e-440c-b0f6-3066aa4bee5e">
+<rect key="frame" x="240" y="3" width="29" height="10"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="8"/>
+<state key="normal" title="go">
+<color key="titleColor" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</state>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+    <userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+  <userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1 "/>
+</userDefinedRuntimeAttribute>
+ </userDefinedRuntimeAttributes></button>
+
+</subviews>
+</view>
+
+</subviews>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+    <userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+  <userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1 "/>
+</userDefinedRuntimeAttribute>
+ </userDefinedRuntimeAttributes></view>
+
+
+<view contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1245b5aa-72b9-48ac-95c1-596500581093">
+<rect key="frame" x="45" y="65" width="284" height="354"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOT SUPPORTED YET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-1245b5aa-72b9-48ac-95c1-596500581093">
+<rect key="frame" x="0.0" y="0.0" width="284" height="21"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="1" green="0.91394694922631248" blue="0.032942227757150722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<nil key="highlightedColor"/>
+</label>
+</subviews>
+<color key="backgroundColor" red="1" green="0.032048474620000003" blue="0.050928208099999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+
+</subviews>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</view>
+<extendedEdge key="edgesForExtendedLayout"/>
+<nil key="simulatedTopBarMetrics"/>
+<nil key="simulatedBottomBarMetrics"/>
+</viewController>
+<placeholder placeholderIdentifier="IBFirstResponder" id="placeholderId-3fe7f945-212f-4a64-babe-e2f3b8a11bb6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+</objects>
+</scene>
+
+
+<!--View Controller-->
+<scene sceneID="b06c7a3c-2e8f-4b20-9ced-67ff874bc97b-scene">
+<objects>
+<viewController id="b06c7a3c-2e8f-4b20-9ced-67ff874bc97b" sceneMemberID="viewController">
+<layoutGuides>
+<viewControllerLayoutGuide type="top" id="b06c7a3c-2e8f-4b20-9ced-67ff874bc97b-top"/>
+<viewControllerLayoutGuide type="bottom" id="b06c7a3c-2e8f-4b20-9ced-67ff874bc97b-bottom"/>
+</layoutGuides>
+<view key="view" contentMode="scaleAspectFit" id="view-b06c7a3c-2e8f-4b20-9ced-67ff874bc97b">
+<rect key="frame" x="0.0" y="0.0" width="375" height="185"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<view contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c2f4e53a-b4b7-4121-9245-e6110f7e3484">
+<rect key="frame" x="118" y="8" width="140" height="162"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOT SUPPORTED YET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-c2f4e53a-b4b7-4121-9245-e6110f7e3484">
+<rect key="frame" x="0.0" y="0.0" width="140" height="21"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="1" green="0.91394694922631248" blue="0.032942227757150722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<nil key="highlightedColor"/>
+</label>
+</subviews>
+<color key="backgroundColor" red="1" green="0.032048474620000003" blue="0.050928208099999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+
+</subviews>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</view>
+<extendedEdge key="edgesForExtendedLayout"/>
+<nil key="simulatedTopBarMetrics"/>
+<nil key="simulatedBottomBarMetrics"/>
+</viewController>
+<placeholder placeholderIdentifier="IBFirstResponder" id="placeholderId-b06c7a3c-2e8f-4b20-9ced-67ff874bc97b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+</objects>
+</scene>
+
+
+<!--View Controller-->
+<scene sceneID="f1175dc5-3762-4879-b5aa-30f40aa99999-scene">
+<objects>
+<viewController id="f1175dc5-3762-4879-b5aa-30f40aa99999" sceneMemberID="viewController">
+<layoutGuides>
+<viewControllerLayoutGuide type="top" id="f1175dc5-3762-4879-b5aa-30f40aa99999-top"/>
+<viewControllerLayoutGuide type="bottom" id="f1175dc5-3762-4879-b5aa-30f40aa99999-bottom"/>
+</layoutGuides>
+<view key="view" contentMode="scaleAspectFit" id="view-f1175dc5-3762-4879-b5aa-30f40aa99999">
+<rect key="frame" x="0.0" y="0.0" width="375" height="185"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+
+</subviews>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</view>
+<extendedEdge key="edgesForExtendedLayout"/>
+<nil key="simulatedTopBarMetrics"/>
+<nil key="simulatedBottomBarMetrics"/>
+</viewController>
+<placeholder placeholderIdentifier="IBFirstResponder" id="placeholderId-f1175dc5-3762-4879-b5aa-30f40aa99999" userLabel="First Responder" sceneMemberID="firstResponder"/>
+</objects>
+</scene>
+
+
+<!--View Controller-->
+<scene sceneID="2839699a-4b35-435e-94b3-569ebc3427c8-scene">
+<objects>
+<viewController id="2839699a-4b35-435e-94b3-569ebc3427c8" sceneMemberID="viewController">
+<layoutGuides>
+<viewControllerLayoutGuide type="top" id="2839699a-4b35-435e-94b3-569ebc3427c8-top"/>
+<viewControllerLayoutGuide type="bottom" id="2839699a-4b35-435e-94b3-569ebc3427c8-bottom"/>
+</layoutGuides>
+<view key="view" contentMode="scaleAspectFit" id="view-2839699a-4b35-435e-94b3-569ebc3427c8">
+<rect key="frame" x="0.0" y="0.0" width="375" height="390"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dd323ac5-d29e-41eb-ab49-2be3457b4049">
+<rect key="frame" x="45" y="44" width="284" height="343"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<subviews>
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0c133b7f-9bbc-49c1-be77-73b09ff10e76">
+<rect key="frame" x="3" y="4" width="271" height="327"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" customClass="YTTextView" customModuleProvider="target"  textAlignment="natural" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d29bf279-e083-4a74-8fb2-5d73a5dea050">
+<rect key="frame" x="0" y="3" width="102" height="59"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<fontDescription key="fontDescription" type="system" weight="" pointSize=""/>
+<textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+</textView>
+
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3adf9ad7-5b2c-4f0f-a573-e5a9aca0d9b7">
+<rect key="frame" x="11" y="10" width="40" height="45"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<subviews>
+<view contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2c178174-a4fa-4ad7-b535-e7d8b803c832">
+<rect key="frame" x="8" y="9" width="25" height="25"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOT SUPPORTED YET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-2c178174-a4fa-4ad7-b535-e7d8b803c832">
+<rect key="frame" x="0.0" y="0.0" width="25" height="21"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="1" green="0.91394694922631248" blue="0.032942227757150722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<nil key="highlightedColor"/>
+</label>
+</subviews>
+<color key="backgroundColor" red="1" green="0.032048474620000003" blue="0.050928208099999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+
+</subviews>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+    <userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+  <userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1 "/>
+</userDefinedRuntimeAttribute>
+ </userDefinedRuntimeAttributes></view>
+
+
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="77294b8c-fd44-4bb8-b62c-76c3e7b1e896">
+<rect key="frame" x="56" y="19" width="43" height="25"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" customClass="YTLabel" customModuleProvider="target"  text="NickName" textAlignment="natural"
+ lineBreakMode="tailTruncation"
+ baselineAdjustment="alignBaselines"
+ adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" numberOfLines="0" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="11c6e6e0-c59a-40cd-b40a-820d4bc77f58">
+<rect key="frame" x="0" y="0" width="36" height="9"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" weight="" pointSize="8"/>
+</label>
+
+<label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" customClass="YTLabel" customModuleProvider="target"  text="real name&amp;surname" textAlignment="natural"
+ lineBreakMode="tailTruncation"
+ baselineAdjustment="alignBaselines"
+ adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" numberOfLines="0" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b3f19576-c6d3-42e1-aec7-519219ec9606">
+<rect key="frame" x="0" y="19" width="43" height="6"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" weight="" pointSize="5"/>
+</label>
+</subviews>
+</view>
+
+
+<view contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1149e57f-f7ec-41e4-9507-dc151d02e887">
+<rect key="frame" x="110" y="0" width="161" height="327"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOT SUPPORTED YET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-1149e57f-f7ec-41e4-9507-dc151d02e887">
+<rect key="frame" x="0.0" y="0.0" width="161" height="21"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="1" green="0.91394694922631248" blue="0.032942227757150722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<nil key="highlightedColor"/>
+</label>
+</subviews>
+<color key="backgroundColor" red="1" green="0.032048474620000003" blue="0.050928208099999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+
+
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3f1305d2-d764-42df-8952-e20b37b9291e">
+<rect key="frame" x="0" y="3" width="102" height="324"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<view contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e1b2ae51-9726-4220-a32b-fd6f182c6e47">
+<rect key="frame" x="0" y="62" width="102" height="50"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOT SUPPORTED YET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-e1b2ae51-9726-4220-a32b-fd6f182c6e47">
+<rect key="frame" x="0.0" y="0.0" width="102" height="21"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="1" green="0.91394694922631248" blue="0.032942227757150722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<nil key="highlightedColor"/>
+</label>
+</subviews>
+<color key="backgroundColor" red="1" green="0.032048474620000003" blue="0.050928208099999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+
+
+<view contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="52d3cc6a-ca74-4a38-947f-d0d4973ac6fa">
+<rect key="frame" x="0" y="274" width="102" height="50"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOT SUPPORTED YET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-52d3cc6a-ca74-4a38-947f-d0d4973ac6fa">
+<rect key="frame" x="0.0" y="0.0" width="102" height="21"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="1" green="0.91394694922631248" blue="0.032942227757150722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<nil key="highlightedColor"/>
+</label>
+</subviews>
+<color key="backgroundColor" red="1" green="0.032048474620000003" blue="0.050928208099999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+
+
+<view contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d9cf59c9-3a53-448e-92dd-d4eaf5800b66">
+<rect key="frame" x="0" y="167" width="102" height="50"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOT SUPPORTED YET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-d9cf59c9-3a53-448e-92dd-d4eaf5800b66">
+<rect key="frame" x="0.0" y="0.0" width="102" height="21"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="1" green="0.91394694922631248" blue="0.032942227757150722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<nil key="highlightedColor"/>
+</label>
+</subviews>
+<color key="backgroundColor" red="1" green="0.032048474620000003" blue="0.050928208099999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+
+
+<view contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eb0d41c3-d78d-4287-bbfa-a1c4bcda1f04">
+<rect key="frame" x="0" y="115" width="102" height="50"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOT SUPPORTED YET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-eb0d41c3-d78d-4287-bbfa-a1c4bcda1f04">
+<rect key="frame" x="0.0" y="0.0" width="102" height="21"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="1" green="0.91394694922631248" blue="0.032942227757150722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<nil key="highlightedColor"/>
+</label>
+</subviews>
+<color key="backgroundColor" red="1" green="0.032048474620000003" blue="0.050928208099999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+
+
+<view contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0155e22c-63c7-4742-a587-57befc79ce20">
+<rect key="frame" x="0" y="220" width="102" height="50"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOT SUPPORTED YET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-0155e22c-63c7-4742-a587-57befc79ce20">
+<rect key="frame" x="0.0" y="0.0" width="102" height="21"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="1" green="0.91394694922631248" blue="0.032942227757150722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<nil key="highlightedColor"/>
+</label>
+</subviews>
+<color key="backgroundColor" red="1" green="0.032048474620000003" blue="0.050928208099999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+
+</subviews>
+</view>
+
+</subviews>
+</view>
+
+</subviews>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+    <userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+  <userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1 "/>
+</userDefinedRuntimeAttribute>
+ </userDefinedRuntimeAttributes></view>
+
+
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e937fa34-5af7-481d-a73e-4639b01bb758">
+<rect key="frame" x="45" y="11" width="284" height="26"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" customClass="YTLabel" customModuleProvider="target"  text="KinoZord" textAlignment="natural"
+ lineBreakMode="tailTruncation"
+ baselineAdjustment="alignBaselines"
+ adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" numberOfLines="0" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aa26ea5e-5934-4b13-9e66-bf8266f26426">
+<rect key="frame" x="113" y="5" width="58" height="16"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" weight="" pointSize="13"/>
+</label>
+</subviews>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+    <userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+  <userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1 "/>
+</userDefinedRuntimeAttribute>
+ </userDefinedRuntimeAttributes></view>
+
+</subviews>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</view>
+<extendedEdge key="edgesForExtendedLayout"/>
+<nil key="simulatedTopBarMetrics"/>
+<nil key="simulatedBottomBarMetrics"/>
+</viewController>
+<placeholder placeholderIdentifier="IBFirstResponder" id="placeholderId-2839699a-4b35-435e-94b3-569ebc3427c8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+</objects>
+</scene>
+
+
+<!--View Controller-->
+<scene sceneID="646b4a60-0abf-4702-8226-196427159966-scene">
+<objects>
+<viewController id="646b4a60-0abf-4702-8226-196427159966" sceneMemberID="viewController">
+<layoutGuides>
+<viewControllerLayoutGuide type="top" id="646b4a60-0abf-4702-8226-196427159966-top"/>
+<viewControllerLayoutGuide type="bottom" id="646b4a60-0abf-4702-8226-196427159966-bottom"/>
+</layoutGuides>
+<view key="view" contentMode="scaleAspectFit" id="view-646b4a60-0abf-4702-8226-196427159966">
+<rect key="frame" x="0.0" y="0.0" width="375" height="323"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a7458804-fe61-43a0-8565-b14e86bb703e">
+<rect key="frame" x="45" y="24" width="284" height="26"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<subviews>
+<view contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="55fdf28c-db20-48ad-a57a-d8481e3e30ab">
+<rect key="frame" x="0" y="24" width="284" height="2"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOT SUPPORTED YET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-55fdf28c-db20-48ad-a57a-d8481e3e30ab">
+<rect key="frame" x="0.0" y="0.0" width="284" height="21"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="1" green="0.91394694922631248" blue="0.032942227757150722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<nil key="highlightedColor"/>
+</label>
+</subviews>
+<color key="backgroundColor" red="1" green="0.032048474620000003" blue="0.050928208099999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+
+
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d7c36392-1c5c-44c5-bc2b-1f28525d2033">
+<rect key="frame" x="4" y="6" width="269" height="13"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" customClass="YTSearchBox" customModuleProvider="target"  textAlignment="natural" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0c6e1eaf-a0d3-4c80-92cf-4747f02c1330">
+<rect key="frame" x="66" y="3" width="168" height="10"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<mutableString key="text">search by name</mutableString>
+<fontDescription key="fontDescription" type="system" weight="" pointSize=""/>
+<userDefinedRuntimeAttributes>
+</userDefinedRuntimeAttributes>
+    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+</textView>
+
+<label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" customClass="YTLabel" customModuleProvider="target"  text="KinoZord" textAlignment="natural"
+ lineBreakMode="tailTruncation"
+ baselineAdjustment="alignBaselines"
+ adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" numberOfLines="0" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e9be8a64-2e02-46f7-af6b-2cbe6e9040e9">
+<rect key="frame" x="0" y="0" width="56" height="13"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" weight="" pointSize="11"/>
+</label>
+
+<button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" customClass="YTButton" customModuleProvider="target"  contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="wordWrap" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bee10a73-db49-44ac-9b3f-b88a401c236c">
+<rect key="frame" x="240" y="3" width="29" height="10"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="8"/>
+<state key="normal" title="go">
+<color key="titleColor" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</state>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+    <userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+  <userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1 "/>
+</userDefinedRuntimeAttribute>
+ </userDefinedRuntimeAttributes></button>
+
+</subviews>
+</view>
+
+</subviews>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+    <userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+  <userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1 "/>
+</userDefinedRuntimeAttribute>
+ </userDefinedRuntimeAttributes></view>
+
+
+<view contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9dc4c5f0-d496-4e1f-876d-f5276091539e">
+<rect key="frame" x="45" y="69" width="284" height="209"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOT SUPPORTED YET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-9dc4c5f0-d496-4e1f-876d-f5276091539e">
+<rect key="frame" x="0.0" y="0.0" width="284" height="21"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="1" green="0.91394694922631248" blue="0.032942227757150722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<nil key="highlightedColor"/>
+</label>
+</subviews>
+<color key="backgroundColor" red="1" green="0.032048474620000003" blue="0.050928208099999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+
+</subviews>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</view>
+<extendedEdge key="edgesForExtendedLayout"/>
+<nil key="simulatedTopBarMetrics"/>
+<nil key="simulatedBottomBarMetrics"/>
+</viewController>
+<placeholder placeholderIdentifier="IBFirstResponder" id="placeholderId-646b4a60-0abf-4702-8226-196427159966" userLabel="First Responder" sceneMemberID="firstResponder"/>
+</objects>
+</scene>
+
+
+<!--View Controller-->
+<scene sceneID="ece4106b-4c4a-4802-ae29-781f1432ae36-scene">
+<objects>
+<viewController id="ece4106b-4c4a-4802-ae29-781f1432ae36" sceneMemberID="viewController">
+<layoutGuides>
+<viewControllerLayoutGuide type="top" id="ece4106b-4c4a-4802-ae29-781f1432ae36-top"/>
+<viewControllerLayoutGuide type="bottom" id="ece4106b-4c4a-4802-ae29-781f1432ae36-bottom"/>
+</layoutGuides>
+<view key="view" contentMode="scaleAspectFit" id="view-ece4106b-4c4a-4802-ae29-781f1432ae36">
+<rect key="frame" x="0.0" y="0.0" width="375" height="425"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e7baa1b0-843b-457c-a86b-c7fc6be8ec2d">
+<rect key="frame" x="45" y="24" width="284" height="26"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<subviews>
+<view contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5e791e04-f1f5-44aa-a849-f853bbff7b95">
+<rect key="frame" x="0" y="24" width="284" height="2"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOT SUPPORTED YET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-5e791e04-f1f5-44aa-a849-f853bbff7b95">
+<rect key="frame" x="0.0" y="0.0" width="284" height="21"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="1" green="0.91394694922631248" blue="0.032942227757150722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<nil key="highlightedColor"/>
+</label>
+</subviews>
+<color key="backgroundColor" red="1" green="0.032048474620000003" blue="0.050928208099999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+
+
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="60d6623f-aa23-4503-af7b-ead16100a4cb">
+<rect key="frame" x="4" y="6" width="269" height="13"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" customClass="YTSearchBox" customModuleProvider="target"  textAlignment="natural" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="96c8236e-b2f6-47ec-9b44-1cf27181e66d">
+<rect key="frame" x="66" y="3" width="168" height="10"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<mutableString key="text">search by name</mutableString>
+<fontDescription key="fontDescription" type="system" weight="" pointSize=""/>
+<userDefinedRuntimeAttributes>
+</userDefinedRuntimeAttributes>
+    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+</textView>
+
+<label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" customClass="YTLabel" customModuleProvider="target"  text="KinoZord" textAlignment="natural"
+ lineBreakMode="tailTruncation"
+ baselineAdjustment="alignBaselines"
+ adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" numberOfLines="0" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5b92bf4-37dc-4087-acdc-e1e337d7ac7c">
+<rect key="frame" x="0" y="0" width="56" height="13"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" weight="" pointSize="11"/>
+</label>
+
+<button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" customClass="YTButton" customModuleProvider="target"  contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="wordWrap" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e9457468-36cc-4416-8cb7-13a980006154">
+<rect key="frame" x="240" y="3" width="29" height="10"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="8"/>
+<state key="normal" title="go">
+<color key="titleColor" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</state>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+    <userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+  <userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1 "/>
+</userDefinedRuntimeAttribute>
+ </userDefinedRuntimeAttributes></button>
+
+</subviews>
+</view>
+
+</subviews>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+    <userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+  <userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1 "/>
+</userDefinedRuntimeAttribute>
+ </userDefinedRuntimeAttributes></view>
+
+
+<view contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="51287adc-c68a-4d0a-bd83-02d1f20fa90f">
+<rect key="frame" x="45" y="65" width="284" height="354"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOT SUPPORTED YET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-51287adc-c68a-4d0a-bd83-02d1f20fa90f">
+<rect key="frame" x="0.0" y="0.0" width="284" height="21"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="1" green="0.91394694922631248" blue="0.032942227757150722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<nil key="highlightedColor"/>
+</label>
+</subviews>
+<color key="backgroundColor" red="1" green="0.032048474620000003" blue="0.050928208099999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+
+</subviews>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</view>
+<extendedEdge key="edgesForExtendedLayout"/>
+<nil key="simulatedTopBarMetrics"/>
+<nil key="simulatedBottomBarMetrics"/>
+</viewController>
+<placeholder placeholderIdentifier="IBFirstResponder" id="placeholderId-ece4106b-4c4a-4802-ae29-781f1432ae36" userLabel="First Responder" sceneMemberID="firstResponder"/>
+</objects>
+</scene>
+
+
+<!--View Controller-->
+<scene sceneID="76e00f08-d0e7-4f60-aba0-d720d17bacf1-scene">
+<objects>
+<viewController id="76e00f08-d0e7-4f60-aba0-d720d17bacf1" sceneMemberID="viewController">
+<layoutGuides>
+<viewControllerLayoutGuide type="top" id="76e00f08-d0e7-4f60-aba0-d720d17bacf1-top"/>
+<viewControllerLayoutGuide type="bottom" id="76e00f08-d0e7-4f60-aba0-d720d17bacf1-bottom"/>
+</layoutGuides>
+<view key="view" contentMode="scaleAspectFit" id="view-76e00f08-d0e7-4f60-aba0-d720d17bacf1">
+<rect key="frame" x="0.0" y="0.0" width="375" height="185"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4d996c69-b391-4841-b074-a9977f6ffe33">
+<rect key="frame" x="40" y="74" width="294" height="34"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" customClass="YTButton" customModuleProvider="target"  contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="wordWrap" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="00350a7f-3c0a-4133-8d46-215f6724f6ba">
+<rect key="frame" x="188" y="0" width="106" height="34"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="8"/>
+<state key="normal" title="Authorised User
+(full functionality)">
+<color key="titleColor" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</state>
+<color key="backgroundColor" red="0.8" green="0.8" blue="0.8" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+<real key="value" value="4"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+    <userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+    <userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+  <userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1 "/>
+</userDefinedRuntimeAttribute>
+ </userDefinedRuntimeAttributes></button>
+
+
+<button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" customClass="YTButton" customModuleProvider="target"  contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="wordWrap" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="97454d8c-fa41-48f1-9c2c-e1a3b93467fe">
+<rect key="frame" x="0" y="0" width="106" height="34"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="8"/>
+<state key="normal" title="Guest
+(less preferences)">
+<color key="titleColor" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</state>
+<color key="backgroundColor" red="0.8" green="0.8" blue="0.8" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+<real key="value" value="4"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+    <userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+    <userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+  <userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1 "/>
+</userDefinedRuntimeAttribute>
+ </userDefinedRuntimeAttributes></button>
+
+</subviews>
+</view>
+
+
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7c941491-0a72-4b73-a62f-08af4ef64e94">
+<rect key="frame" x="107" y="22" width="168" height="142"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" customClass="YTLabel" customModuleProvider="target"  text="Continue as" textAlignment="natural"
+ lineBreakMode="tailTruncation"
+ baselineAdjustment="alignBaselines"
+ adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" numberOfLines="0" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ecc3c50-fe97-4e38-9952-3d17e2a0840b">
+<rect key="frame" x="42" y="15" width="78" height="16"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" weight="" pointSize="13"/>
+</label>
+
+<view contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="02d0d68f-0da4-4d47-b539-a0a84496449c">
+<rect key="frame" x="0" y="0" width="168" height="142"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOT SUPPORTED YET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-02d0d68f-0da4-4d47-b539-a0a84496449c">
+<rect key="frame" x="0.0" y="0.0" width="168" height="21"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="1" green="0.91394694922631248" blue="0.032942227757150722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<nil key="highlightedColor"/>
+</label>
+</subviews>
+<color key="backgroundColor" red="1" green="0.032048474620000003" blue="0.050928208099999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+
+</subviews>
+</view>
+
+</subviews>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</view>
+<extendedEdge key="edgesForExtendedLayout"/>
+<nil key="simulatedTopBarMetrics"/>
+<nil key="simulatedBottomBarMetrics"/>
+</viewController>
+<placeholder placeholderIdentifier="IBFirstResponder" id="placeholderId-76e00f08-d0e7-4f60-aba0-d720d17bacf1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+</objects>
+</scene>
+
+
+<!--View Controller-->
+<scene sceneID="44ea79a0-663a-4b37-ac9a-5542772d8c08-scene">
+<objects>
+<viewController id="44ea79a0-663a-4b37-ac9a-5542772d8c08" sceneMemberID="viewController">
+<layoutGuides>
+<viewControllerLayoutGuide type="top" id="44ea79a0-663a-4b37-ac9a-5542772d8c08-top"/>
+<viewControllerLayoutGuide type="bottom" id="44ea79a0-663a-4b37-ac9a-5542772d8c08-bottom"/>
+</layoutGuides>
+<view key="view" contentMode="scaleAspectFit" id="view-44ea79a0-663a-4b37-ac9a-5542772d8c08">
+<rect key="frame" x="0.0" y="0.0" width="375" height="185"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<view contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d4bcb335-a019-4ad2-be3c-2e5a8f00a362">
+<rect key="frame" x="99" y="21" width="159" height="143"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOT SUPPORTED YET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-d4bcb335-a019-4ad2-be3c-2e5a8f00a362">
+<rect key="frame" x="0.0" y="0.0" width="159" height="21"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="1" green="0.91394694922631248" blue="0.032942227757150722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<nil key="highlightedColor"/>
+</label>
+</subviews>
+<color key="backgroundColor" red="1" green="0.032048474620000003" blue="0.050928208099999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+
+</subviews>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</view>
+<extendedEdge key="edgesForExtendedLayout"/>
+<nil key="simulatedTopBarMetrics"/>
+<nil key="simulatedBottomBarMetrics"/>
+</viewController>
+<placeholder placeholderIdentifier="IBFirstResponder" id="placeholderId-44ea79a0-663a-4b37-ac9a-5542772d8c08" userLabel="First Responder" sceneMemberID="firstResponder"/>
+</objects>
+</scene>
+
+
+<!--View Controller-->
+<scene sceneID="748417ef-6b25-47ac-ab77-e3d6f3276965-scene">
+<objects>
+<viewController id="748417ef-6b25-47ac-ab77-e3d6f3276965" sceneMemberID="viewController">
+<layoutGuides>
+<viewControllerLayoutGuide type="top" id="748417ef-6b25-47ac-ab77-e3d6f3276965-top"/>
+<viewControllerLayoutGuide type="bottom" id="748417ef-6b25-47ac-ab77-e3d6f3276965-bottom"/>
+</layoutGuides>
+<view key="view" contentMode="scaleAspectFit" id="view-748417ef-6b25-47ac-ab77-e3d6f3276965">
+<rect key="frame" x="0.0" y="0.0" width="375" height="185"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+
+</subviews>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</view>
+<extendedEdge key="edgesForExtendedLayout"/>
+<nil key="simulatedTopBarMetrics"/>
+<nil key="simulatedBottomBarMetrics"/>
+</viewController>
+<placeholder placeholderIdentifier="IBFirstResponder" id="placeholderId-748417ef-6b25-47ac-ab77-e3d6f3276965" userLabel="First Responder" sceneMemberID="firstResponder"/>
+</objects>
+</scene>
+
+
+<!--View Controller-->
+<scene sceneID="fb8fe6b2-0994-445c-8b66-434839b27c34-scene">
+<objects>
+<viewController id="fb8fe6b2-0994-445c-8b66-434839b27c34" sceneMemberID="viewController">
+<layoutGuides>
+<viewControllerLayoutGuide type="top" id="fb8fe6b2-0994-445c-8b66-434839b27c34-top"/>
+<viewControllerLayoutGuide type="bottom" id="fb8fe6b2-0994-445c-8b66-434839b27c34-bottom"/>
+</layoutGuides>
+<view key="view" contentMode="scaleAspectFit" id="view-fb8fe6b2-0994-445c-8b66-434839b27c34">
+<rect key="frame" x="0.0" y="0.0" width="375" height="425"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e1043419-31a8-49a7-8cf2-5e87a99cc0f4">
+<rect key="frame" x="45" y="24" width="284" height="26"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<subviews>
+<view contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c9fd6a86-0caf-451d-9512-b8e9f66aff2a">
+<rect key="frame" x="0" y="24" width="284" height="2"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOT SUPPORTED YET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-c9fd6a86-0caf-451d-9512-b8e9f66aff2a">
+<rect key="frame" x="0.0" y="0.0" width="284" height="21"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="1" green="0.91394694922631248" blue="0.032942227757150722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<nil key="highlightedColor"/>
+</label>
+</subviews>
+<color key="backgroundColor" red="1" green="0.032048474620000003" blue="0.050928208099999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+
+
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4cbb3016-8363-435f-ba9a-103356eae0c2">
+<rect key="frame" x="4" y="6" width="269" height="13"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" customClass="YTSearchBox" customModuleProvider="target"  textAlignment="natural" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="115926e3-214d-4e3b-8154-4db82e277709">
+<rect key="frame" x="66" y="3" width="168" height="10"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<mutableString key="text">search by name</mutableString>
+<fontDescription key="fontDescription" type="system" weight="" pointSize=""/>
+<userDefinedRuntimeAttributes>
+</userDefinedRuntimeAttributes>
+    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+</textView>
+
+<label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" customClass="YTLabel" customModuleProvider="target"  text="KinoZord" textAlignment="natural"
+ lineBreakMode="tailTruncation"
+ baselineAdjustment="alignBaselines"
+ adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" numberOfLines="0" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="976a3db6-fe18-4c95-8dc6-2f9cb7990f26">
+<rect key="frame" x="0" y="0" width="56" height="13"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" weight="" pointSize="11"/>
+</label>
+
+<button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" customClass="YTButton" customModuleProvider="target"  contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="wordWrap" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6143e6a6-2b7a-4843-b976-8ed4a1f2a6bd">
+<rect key="frame" x="240" y="3" width="29" height="10"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="8"/>
+<state key="normal" title="go">
+<color key="titleColor" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</state>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+    <userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+  <userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1 "/>
+</userDefinedRuntimeAttribute>
+ </userDefinedRuntimeAttributes></button>
+
+</subviews>
+</view>
+
+</subviews>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+    <userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+  <userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1 "/>
+</userDefinedRuntimeAttribute>
+ </userDefinedRuntimeAttributes></view>
+
+
+<view contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8300af45-673e-4d8b-a252-36a99195a533">
+<rect key="frame" x="45" y="65" width="284" height="354"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOT SUPPORTED YET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-8300af45-673e-4d8b-a252-36a99195a533">
+<rect key="frame" x="0.0" y="0.0" width="284" height="21"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="1" green="0.91394694922631248" blue="0.032942227757150722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<nil key="highlightedColor"/>
+</label>
+</subviews>
+<color key="backgroundColor" red="1" green="0.032048474620000003" blue="0.050928208099999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+
+</subviews>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</view>
+<extendedEdge key="edgesForExtendedLayout"/>
+<nil key="simulatedTopBarMetrics"/>
+<nil key="simulatedBottomBarMetrics"/>
+</viewController>
+<placeholder placeholderIdentifier="IBFirstResponder" id="placeholderId-fb8fe6b2-0994-445c-8b66-434839b27c34" userLabel="First Responder" sceneMemberID="firstResponder"/>
+</objects>
+</scene>
+
+
+<!--View Controller-->
+<scene sceneID="68a2ec3b-07dc-4f7d-9e5c-2fef07dade5e-scene">
+<objects>
+<viewController id="68a2ec3b-07dc-4f7d-9e5c-2fef07dade5e" sceneMemberID="viewController">
+<layoutGuides>
+<viewControllerLayoutGuide type="top" id="68a2ec3b-07dc-4f7d-9e5c-2fef07dade5e-top"/>
+<viewControllerLayoutGuide type="bottom" id="68a2ec3b-07dc-4f7d-9e5c-2fef07dade5e-bottom"/>
+</layoutGuides>
+<view key="view" contentMode="scaleAspectFit" id="view-68a2ec3b-07dc-4f7d-9e5c-2fef07dade5e">
+<rect key="frame" x="0.0" y="0.0" width="375" height="323"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2627eef8-3029-4ac8-a95e-ff2315f45594">
+<rect key="frame" x="45" y="24" width="284" height="26"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<subviews>
+<view contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="805cf221-3fc9-4972-ae8f-47a6fa1123e7">
+<rect key="frame" x="0" y="24" width="284" height="2"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOT SUPPORTED YET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-805cf221-3fc9-4972-ae8f-47a6fa1123e7">
+<rect key="frame" x="0.0" y="0.0" width="284" height="21"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="1" green="0.91394694922631248" blue="0.032942227757150722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<nil key="highlightedColor"/>
+</label>
+</subviews>
+<color key="backgroundColor" red="1" green="0.032048474620000003" blue="0.050928208099999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+
+
+<view contentMode="scaleToFill" fixedFrame="YES" customClass="YTView" customModuleProvider="target" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="13e598ff-9eba-4b25-a110-20381101eca1">
+<rect key="frame" x="4" y="6" width="269" height="13"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" customClass="YTSearchBox" customModuleProvider="target"  textAlignment="natural" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ef172f8f-8b8f-4271-9b95-ffafaf2661b3">
+<rect key="frame" x="66" y="3" width="168" height="10"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<mutableString key="text">search by name</mutableString>
+<fontDescription key="fontDescription" type="system" weight="" pointSize=""/>
+<userDefinedRuntimeAttributes>
+</userDefinedRuntimeAttributes>
+    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+</textView>
+
+<label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" customClass="YTLabel" customModuleProvider="target"  text="KinoZord" textAlignment="natural"
+ lineBreakMode="tailTruncation"
+ baselineAdjustment="alignBaselines"
+ adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" numberOfLines="0" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a17c12b2-f715-4b70-8149-e0c5d8fe3137">
+<rect key="frame" x="0" y="0" width="56" height="13"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" weight="" pointSize="11"/>
+</label>
+
+<button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" customClass="YTButton" customModuleProvider="target"  contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="wordWrap" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="da6320b3-39a2-4e2f-b788-799d083d5842">
+<rect key="frame" x="240" y="3" width="29" height="10"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="8"/>
+<state key="normal" title="go">
+<color key="titleColor" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</state>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+    <userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+  <userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1 "/>
+</userDefinedRuntimeAttribute>
+ </userDefinedRuntimeAttributes></button>
+
+</subviews>
+</view>
+
+</subviews>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+    <userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+ <userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+  <userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1 "/>
+</userDefinedRuntimeAttribute>
+ </userDefinedRuntimeAttributes></view>
+
+
+<view contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="59a61807-d68c-4c70-b494-28390d75adf4">
+<rect key="frame" x="45" y="69" width="284" height="209"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOT SUPPORTED YET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-59a61807-d68c-4c70-b494-28390d75adf4">
+<rect key="frame" x="0.0" y="0.0" width="284" height="21"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="1" green="0.91394694922631248" blue="0.032942227757150722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<nil key="highlightedColor"/>
+</label>
+</subviews>
+<color key="backgroundColor" red="1" green="0.032048474620000003" blue="0.050928208099999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+<color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+<real key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+
+</subviews>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</view>
+<extendedEdge key="edgesForExtendedLayout"/>
+<nil key="simulatedTopBarMetrics"/>
+<nil key="simulatedBottomBarMetrics"/>
+</viewController>
+<placeholder placeholderIdentifier="IBFirstResponder" id="placeholderId-68a2ec3b-07dc-4f7d-9e5c-2fef07dade5e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+</objects>
+</scene>
+
+
+<!--View Controller-->
+<scene sceneID="45b20c05-7064-44da-96be-f80f5da8d9b4-scene">
+<objects>
+<viewController id="45b20c05-7064-44da-96be-f80f5da8d9b4" sceneMemberID="viewController">
+<layoutGuides>
+<viewControllerLayoutGuide type="top" id="45b20c05-7064-44da-96be-f80f5da8d9b4-top"/>
+<viewControllerLayoutGuide type="bottom" id="45b20c05-7064-44da-96be-f80f5da8d9b4-bottom"/>
+</layoutGuides>
+<view key="view" contentMode="scaleAspectFit" id="view-45b20c05-7064-44da-96be-f80f5da8d9b4">
+<rect key="frame" x="0.0" y="0.0" width="375" height="185"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+
+</subviews>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</view>
+<extendedEdge key="edgesForExtendedLayout"/>
+<nil key="simulatedTopBarMetrics"/>
+<nil key="simulatedBottomBarMetrics"/>
+</viewController>
+<placeholder placeholderIdentifier="IBFirstResponder" id="placeholderId-45b20c05-7064-44da-96be-f80f5da8d9b4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+</objects>
+</scene>
+</scenes>
+</document>
